@@ -1,0 +1,62 @@
+************************************************************************************************************************************************
+Click Service Desk Analyst
+*********************Validating : Validate Submit Button*******************************
+******************************Submit is Found************************************
+Click Incident Button
+***************************Navigate to Frame: ext-gen97********************************
+Click New Incident Button
+*****************************Verify VIP CustomerProfile and Priority****************************
+1.Enter Name in the customer field.
+2.Validate Customer Priority Values
+3.Validate Customer Profile
+4.Customer profile should include name, email address, phone number, and customer location (address)
+Successfully Validated VIP Customer Profile,Email,Phone and Address
+*****************************Verify Regular CustomerProfile and Priority****************************
+1.Enter Name in the customer field.
+2.Validate Customer Priority Values
+3.Validate Customer Profile
+4.Customer profile should include name, email address, phone number, and customer location (address)
+Successfully Validated Regular Customer Profile,Email,Phone and Address
+Manually type Hart Plaza into building list field
+Building field display turns red to alert that Hart Plaza is not a valid entry
+Manually type 14112 Woodward Ave. into building list field
+Building address should be displayed successfully
+***********************Type VDI Instructions into summary***************************
+VDI instructions knowledge article should appear on the right pane
+VDI instructions knowledge article is validated successfully
+****************************TYPE DESCRIPTION********************************
+********The category and subcategory list should appear based on the service that was selected*************
+ Choose  Service: Desktop Software Services
+*****************Validate the Category for this Service****************
+Validating Service:Desktop Software Services
+*****************Validate the SubCategory for this Service****************
+********Category and Subcategory list successfully apeared based on  the service that was selected*************
+******************Without filling the summary and description fields click save************************
+*************Validatng the Error received***************
+Error text value is: The following information does not satisfy validation constraints:
+
+Summary: field value may not be empty
+Description: field value may not be empty
+
+Enter Details in Summary and Description
+Change status from active to waiting for customer and click save and enter in notes Testing and your initials. Note your incident number.
+*************Capture the Incident#***************
+Incident Value: 23086
+Enter the Notes
+Value Entered/Choosed: Modified By SN
+Switch to Default Home
+Click All My Items
+Switch to Default Home
+***************************Navigate to Frame: ext-gen77********************************
+Switch to Default Home
+Click Incident Button
+***************************Navigate to Frame: ext-gen97********************************
+Journal Notes: 
+Creating and Modifying Incident Ended Successfully
+****************************************************************************************************************************************************************
+
+===============================================
+Test-method Suite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+

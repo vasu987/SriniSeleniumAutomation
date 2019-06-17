@@ -1,0 +1,9 @@
+Open jmeter from Non GUI Mode
+
+jmeter -H proxy.wc -P 8080
+
+Once you get access to the folders try this location in enterprise connect
+Enterprise Connect\Document Management\Enterprise\Office of the 
+County Executive\Department of Information Technology\Projects/Development\Dev & Int Projects 2018\Meeting Minutes
+
+//*[@id="ext-gen538"]

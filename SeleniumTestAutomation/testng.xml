@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test-method Suite" thread-count="3" >
+
+
+     <test name="test1">
+    <classes>
+      <class name="com.servicedesk.com.CreateCloseTask"/>
+    </classes>
+   </test>
+     <test name="test2">
+    <classes>
+      <class name="com.servicedesk.com.SelfServiceUser"/>
+    </classes>
+   </test>
+     <test name="test3">    						
+    <classes>
+      <class name="com.servicedesk.com.CreatingAndModifyingIncident"/>
+    </classes>
+   </test>
+   </suite>
+ 
+ 
+
+
+

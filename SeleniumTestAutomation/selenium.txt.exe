@@ -1,0 +1,3 @@
+
+WinWaitActivate("Authentication Required","")
+Send("snukala{TAB}mSaibaba2005@{ENTER}")

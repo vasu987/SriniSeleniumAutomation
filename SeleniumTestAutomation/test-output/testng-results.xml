@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="567985" started-at="2019-06-17T18:26:09Z" finished-at="2019-06-17T18:35:37Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="275408" started-at="2019-06-17T18:26:09Z" finished-at="2019-06-17T18:30:44Z">
+      <class name="com.servicedesk.com.CreateCloseTask">
+        <test-method status="PASS" signature="CreatingAndClosingTask()[pri:0, instance:com.servicedesk.com.CreateCloseTask@3c5a99da]" name="CreatingAndClosingTask" duration-ms="275408" started-at="2019-06-17T14:26:09Z" finished-at="2019-06-17T14:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingAndClosingTask -->
+      </class> <!-- com.servicedesk.com.CreateCloseTask -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="71535" started-at="2019-06-17T18:30:44Z" finished-at="2019-06-17T18:31:56Z">
+      <class name="com.servicedesk.com.SelfServiceUser">
+        <test-method status="PASS" signature="ReportTechnologyIssue()[pri:0, instance:com.servicedesk.com.SelfServiceUser@1134affc]" name="ReportTechnologyIssue" duration-ms="71519" started-at="2019-06-17T14:30:44Z" finished-at="2019-06-17T14:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTechnologyIssue -->
+      </class> <!-- com.servicedesk.com.SelfServiceUser -->
+    </test> <!-- test2 -->
+    <test name="test3" duration-ms="221011" started-at="2019-06-17T18:31:56Z" finished-at="2019-06-17T18:35:37Z">
+      <class name="com.servicedesk.com.CreatingAndModifyingIncident">
+        <test-method status="PASS" signature="CreatingAndModifyingIncident()[pri:0, instance:com.servicedesk.com.CreatingAndModifyingIncident@6b71769e]" name="CreatingAndModifyingIncident" duration-ms="221011" started-at="2019-06-17T14:31:56Z" finished-at="2019-06-17T14:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingAndModifyingIncident -->
+      </class> <!-- com.servicedesk.com.CreatingAndModifyingIncident -->
+    </test> <!-- test3 -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

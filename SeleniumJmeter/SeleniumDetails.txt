@@ -1,0 +1,17 @@
+****************************************************************Setting up Java Path and Class Path*****************************************************************
+
+ 
+JAVA_HOME : C:\Program Files\Java\jdk1.8.0
+JDK_HOME  : %JAVA_HOME%
+JRE_HOME  : %JAVA_HOME%\jre
+CLASSPATH : %JAVA_HOME%\lib;%JAVA_HOME%\jre\lib
+PATH      : %JAVA_HOME%\bin
+
+--------------------------------------------------------Parallel Execution of test methods in TestNG-----------------------------------------------------------------
+
+https://www.seleniumeasy.com/testng-tutorials/parallel-execution-of-test-methods-in-testng
+
+-------------Effective Xpath-----------------------------------------------------------------
+https://www.swtestacademy.com/xpath-selenium/
+
+

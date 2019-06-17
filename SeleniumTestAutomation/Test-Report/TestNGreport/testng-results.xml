@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="54353" started-at="2019-06-13T00:24:26Z" finished-at="2019-06-13T00:25:21Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="54353" started-at="2019-06-13T00:24:26Z" finished-at="2019-06-13T00:25:21Z">
+      <class name="com.servicedesk.com.BasicTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.servicedesk.com.BasicTest@256216b3]" name="test1" duration-ms="54353" started-at="2019-06-12T20:24:26Z" finished-at="2019-06-12T20:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.servicedesk.com.BasicTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

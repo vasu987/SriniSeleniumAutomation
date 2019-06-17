@@ -1,0 +1,57 @@
+************************************************************************************************************************************************
+Click Service Desk Analyst
+*********************Validating : Validate Submit Button*******************************
+******************************Submit is Found************************************
+Click Incident Button
+***************************Navigate to Frame: ext-gen97********************************
+Click New Incident Button
+*****************************Verify Regular CustomerProfile and Priority****************************
+1.Enter Name in the customer field.
+2.Validate Customer Priority Values
+3.Validate Customer Profile
+4.Customer profile should include name, email address, phone number, and customer location (address)
+Successfully Validated Regular Customer Profile,Email,Phone and Address
+Manually type Hart Plaza into building list field
+Building field display turns red to alert that Hart Plaza is not a valid entry
+Manually type 14112 Woodward Ave. into building list field
+Building address should be displayed successfully
+***********************Type VDI Instructions into summary***************************
+VDI instructions knowledge article should appear on the right pane
+VDI instructions knowledge article is validated successfully
+****************************TYPE DESCRIPTION********************************
+********The category and subcategory list should appear based on the service that was selected*************
+ Choose  Service: Desktop Software Services
+*****************Validate the Category for this Service****************
+Validating Service:Desktop Software Services
+*****************Validate the SubCategory for this Service****************
+********Category and Subcategory list successfully apeared based on  the service that was selected*************
+Enter Details in Summary and Description
+Create Attachment on the New Incident
+*****************Click New Attachment****************
+Value Entered/Choosed: C:\Srini\ServiceTicket.txt
+Attachment Created Successfully
+*********************ClickTask****************
+*****************Click New Task****************
+Value Entered/Choosed: Desktop Support
+*****************New Task Created Successfully****************
+*****************Click Reassign Task****************
+*****************Select Team Development & Integrations****************
+Value Entered/Choosed: Development & Integrations
+Value Entered/Choosed: Test
+*****************Reassign Task Created Successfully****************
+*****************Click Accept Task****************
+*****************Click Complete Task****************
+Value Entered/Choosed: Test Notes
+Value Entered/Choosed: Yes
+Value Entered/Choosed: Desktop Hardware Services
+Value Entered/Choosed: Desktop
+Value Entered/Choosed: Hard Drive
+Value Entered/Choosed: Test SN
+*****************Complete Task Done Successfully****************
+************Validate the Status of the Task***************
+Status Value: Resolved
+************Status of the Task is validated to Resolved Successfully***************
+Task is Completed Successfully
+************************************************************************************************************************************************
+Entered URL
+URL Entered

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.servicedesk.com.CreateCloseTask">
+        <methods>
+          <include name="CreatingAndClosingTask"/>
+        </methods>
+      </class> <!-- com.servicedesk.com.CreateCloseTask -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

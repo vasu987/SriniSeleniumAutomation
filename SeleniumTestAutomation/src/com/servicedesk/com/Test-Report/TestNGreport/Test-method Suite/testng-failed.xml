@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.servicedesk.com.SelfServiceUser">
+        <methods>
+          <include name="ReportTechnologyIssue"/>
+        </methods>
+      </class> <!-- com.servicedesk.com.SelfServiceUser -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)">
+    <classes>
+      <class name="com.servicedesk.com.SelfServiceUser">
+        <methods>
+          <include name="ReportTechnologyIssue"/>
+        </methods>
+      </class> <!-- com.servicedesk.com.SelfServiceUser -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

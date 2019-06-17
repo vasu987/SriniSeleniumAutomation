@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="371773" started-at="2019-05-16T14:13:06Z" finished-at="2019-05-16T14:19:18Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="55416" started-at="2019-05-16T14:13:06Z" finished-at="2019-05-16T14:14:01Z">
+      <class name="com.skg.basic.BasicTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.skg.basic.BasicTest@1b40d5f0]" name="test1" duration-ms="55415" started-at="2019-05-16T10:13:06Z" finished-at="2019-05-16T10:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.skg.basic.BasicTest -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="168516" started-at="2019-05-16T14:14:01Z" finished-at="2019-05-16T14:16:50Z">
+      <class name="com.skg.basic.AllenParkCompass">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.skg.basic.AllenParkCompass@1b0375b3]" name="test2" duration-ms="168515" started-at="2019-05-16T10:14:01Z" finished-at="2019-05-16T10:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.skg.basic.AllenParkCompass -->
+    </test> <!-- test2 -->
+    <test name="test3" duration-ms="147824" started-at="2019-05-16T14:16:50Z" finished-at="2019-05-16T14:19:18Z">
+      <class name="com.skg.basic.BellevilleCompass">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.skg.basic.BellevilleCompass@7c75222b]" name="test3" duration-ms="147824" started-at="2019-05-16T10:16:50Z" finished-at="2019-05-16T10:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.skg.basic.BellevilleCompass -->
+    </test> <!-- test3 -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

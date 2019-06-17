@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="785" started-at="2019-05-31T12:54:28Z" finished-at="2019-05-31T12:54:29Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="471" started-at="2019-05-31T12:54:28Z" finished-at="2019-05-31T12:54:28Z">
+      <class name="com.servicedesk.com.SelfServiceUser">
+        <test-method status="FAIL" signature="ReportTechnologyIssue()[pri:0, instance:com.servicedesk.com.SelfServiceUser@5ba23b66]" name="ReportTechnologyIssue" duration-ms="464" started-at="2019-05-31T08:54:28Z" finished-at="2019-05-31T08:54:28Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+	at org.openqa.selenium.firefox.Preferences.checkPreference(Preferences.java:225)
+	at org.openqa.selenium.firefox.Preferences.setPreference(Preferences.java:155)
+	at org.openqa.selenium.firefox.Preferences.setPreference(Preferences.java:126)
+	at org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:105)
+	at org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+	at org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:82)
+	at org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:72)
+	at org.openqa.selenium.firefox.ProfilesIni.getProfile(ProfilesIni.java:130)
+	at com.servicedesk.com.MainServiceDesk.setUp(Unknown Source)
+	at com.servicedesk.com.SelfServiceUser.ReportTechnologyIssue(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTechnologyIssue -->
+      </class> <!-- com.servicedesk.com.SelfServiceUser -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="283" started-at="2019-05-31T12:54:28Z" finished-at="2019-05-31T12:54:29Z">
+      <class name="com.servicedesk.com.SelfServiceUser">
+        <test-method status="FAIL" signature="ReportTechnologyIssue()[pri:0, instance:com.servicedesk.com.SelfServiceUser@1d251891]" name="ReportTechnologyIssue" duration-ms="283" started-at="2019-05-31T08:54:28Z" finished-at="2019-05-31T08:54:29Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+	at org.openqa.selenium.firefox.Preferences.checkPreference(Preferences.java:225)
+	at org.openqa.selenium.firefox.Preferences.setPreference(Preferences.java:155)
+	at org.openqa.selenium.firefox.Preferences.setPreference(Preferences.java:126)
+	at org.openqa.selenium.firefox.Preferences.readDefaultPreferences(Preferences.java:105)
+	at org.openqa.selenium.firefox.Preferences.<init>(Preferences.java:66)
+	at org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:82)
+	at org.openqa.selenium.firefox.FirefoxProfile.<init>(FirefoxProfile.java:72)
+	at org.openqa.selenium.firefox.ProfilesIni.getProfile(ProfilesIni.java:130)
+	at com.servicedesk.com.MainServiceDesk.setUp(Unknown Source)
+	at com.servicedesk.com.SelfServiceUser.ReportTechnologyIssue(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTechnologyIssue -->
+      </class> <!-- com.servicedesk.com.SelfServiceUser -->
+    </test> <!-- test2 -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]">
+  <test name="test1">
+    <classes>
+      <class name="com.skg.basic.BasicTest"/>
+    </classes>
+  </test> <!-- test1 -->
+  <test name="test2">
+    <classes>
+      <class name="com.skg.basic.AllenParkCompass"/>
+    </classes>
+  </test> <!-- test2 -->
+  <test name="test3">
+    <classes>
+      <class name="com.skg.basic.BellevilleCompass"/>
+    </classes>
+  </test> <!-- test3 -->
+</suite> <!-- Failed suite [Test-method Suite] -->

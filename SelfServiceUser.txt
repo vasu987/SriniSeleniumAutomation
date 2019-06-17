@@ -1,0 +1,16 @@
+************************************************************************************************************************************************
+Click Service Desk Analyst
+*********************Validating : Validate Submit Button*******************************
+******************************Submit is Found************************************
+***************************Navigate to Frame: ext-gen72********************************
+Switch to Default Home
+*********************************Switch to NavigateToReportTechnologyIssue Frame**********************************
+Srinivas Nukala
+Building Name: 
+14112 Woodward Ave.   MI 48203
+Floor Number 
+Asset Tag Name 
+Value Entered/Choosed: C:\Srini\ServiceTicket.txt
+ISSUE ID: 23085
+Entered URL
+URL Entered

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel Test]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="test1">
+    <parameter name="browser" value="PhantomJS"/>
+    <classes>
+      <class name="com.skg.basic.BasicTest"/>
+    </classes>
+  </test> <!-- test1 -->
+  <test name="test2">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.skg.basic.BasicTest"/>
+    </classes>
+  </test> <!-- test2 -->
+  <test name="test1(failed)" parallel="tests">
+    <parameter name="browser" value="PhantomJS"/>
+    <classes>
+      <class name="com.skg.basic.BasicTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.skg.basic.BasicTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.skg.basic.BasicTest">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.skg.basic.BasicTest -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Parallel Test] -->
